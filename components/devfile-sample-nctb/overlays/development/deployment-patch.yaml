@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-nctb
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/test-rhtap-78-tenant/load-app-8805b94b-ca13-4d33-aeaf-c777e6878cfd/devfile-sample-nctb@sha256:1550c582eeea7c94fbd8575ad9e04a5d78ee8b71a1e20184dd21adbbfb1e99ae
+        name: my-nodejs
+        resources: {}
+status: {}
