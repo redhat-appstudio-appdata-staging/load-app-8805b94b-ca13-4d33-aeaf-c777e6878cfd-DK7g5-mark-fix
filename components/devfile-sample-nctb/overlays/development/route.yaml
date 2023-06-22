@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-nctb
     app.kubernetes.io/part-of: load-app-8805b94b-ca13-4d33-aeaf-c777e6878cfd
-  name: devfile-sample-nctb
+  name: devfile-sample-nctbzxts
 spec:
   path: /
   port:
